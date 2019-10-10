@@ -11,7 +11,7 @@ Student::Student(std::string name) {
 
 Student::Student()
 {
-	std::cout << "default";
+	std::cout << "default" << std::endl;
 }
 
 Student::Student(std::string name, std::string regid, std::string course, int yearofstudy) : name_{ name }, regid_{ regid }, course_{ course }, yearofstudy_(yearofstudy)

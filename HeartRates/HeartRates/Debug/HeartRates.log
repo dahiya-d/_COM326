@@ -1,0 +1,9 @@
+﻿  HeartRates.cpp
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\Heartrates.h(63,1): error C2059: syntax error: '}'
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\HeartRates.cpp(8,105): error C2535: 'HeartRates::HeartRates(std::string,std::string,int,int,int)': member function already defined or declared
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\Heartrates.h(18): message : see declaration of 'HeartRates::HeartRates'
+  Main.cpp
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\HeartRates.cpp(14,1): fatal error C1004: unexpected end-of-file found
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\HeartRates.h(63,1): error C2059: syntax error: '}'
+  Generating Code...
+C:\Users\cgf16dad\source\repos\HeartRates\HeartRates\Main.cpp(36,1): fatal error C1004: unexpected end-of-file found
