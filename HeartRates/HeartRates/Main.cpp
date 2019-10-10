@@ -9,20 +9,20 @@
 int main()
 {
 
-	std::string fname, lname;
-	int dateDay, dateMonth, dateYear;
+	std::string fname_, lname_;
+	int dateDay_, dateMonth_, dateYear_;
 
 	std::cout << "Please enter your First Name!" << std::endl;
-	std::cin >> fname;
+	std::cin >> fname_;
 	std::cout << "Please enter your Last Name!" << std::endl;
-	std::cin >> lname;
+	std::cin >> lname_;
 	std::cout << "Please enter your DOB day-month-year" << std::endl;
-	std::cin >> dateDay >> dateMonth >> dateYear;
+	std::cin >> dateDay_ >> dateMonth_ >> dateYear_;
 
-	HeartRates test(fname, lname, dateDay, dateMonth, dateYear); {
-	std::cout << "Your Age is:" << x  << std::endl;
-	std::cout << "Your Heartrate is:" <<  CalculateHeartRate << std::endl;
-	std::cout << "Your target Heartrate:" <<  CalculateMinHeartRate << " - " <<int CalculateMaxHeartRate << std::endl;
+	HeartRates test(fname_, lname_, dateDay_, dateMonth_, dateYear_); {
+	std::cout << "Your Age is:" << test.CalculateAge()  << std::endl;
+	std::cout << "Your Heartrate is:" <<  test.CalculateHeartRate() << std::endl;
+	std::cout << "Your target Heartrate:" <<  test.CalculateMinHeartRate() << " - " <<test.CalculateMaxHeartRate() <<std::endl;
 	
 	
 	}
